@@ -1,0 +1,91 @@
+body{
+  background-image: url(background.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#containerbox{
+  background: rgba(0, 0, 0, 0.6);
+  width: 1000px;
+  height: 700px;
+  border-radius: 05%;
+  margin: auto;
+}
+
+#boxdimensionblock{
+  width: 900px;
+  height: 900px;
+  margin: 50px;
+}
+
+#imagesetting{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+img {
+ height:25%;
+ width: 25%;
+}
+
+#text{
+  font-style: oblique;
+  font-size: 40px;
+  color: #00DD00;
+  justify-content: center;
+  display: flex;
+}
+
+#navbox{
+  width: auto;
+  background-color:#00DD00;
+  padding: 8px;
+  justify-content: center;
+  display: flex;
+}
+
+#button{
+    margin-right: 7px;
+}
+
+#everyli{
+
+  font-size: 30px;
+  color: white;
+  font-style: oblique;
+  list-style-type: square;
+  font-weight:bolder;
+}
+
+#chargebar1{
+  border: 10px solid green;
+  border-radius: 5px;
+  width: 500px;
+  margin: inherit;
+}
+
+#textinp{
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  margin: auto;
+}
+
+#chargebar2{
+  border: 10px solid orange;
+  border-radius: 5px;
+  width: 250px;
+  margin: inherit;
+
+}
+
+#chargebar3{
+  border: 10px solid red;
+  border-radius: 5px;
+  width: 150px;
+  margin: inherit;
+}
